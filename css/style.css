@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 13vh;
+    position: fixed;
+    z-index: 1;
+    background-color: #E41C1C;
+
+}
+
+#logotipo{
+    width: 20%;
+    float: left;
+}
+#logoimg{
+    width: 10vh; 
+    margin-top:2.5%;
+    margin-left: 5%;
+}
+
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    font-style:italic;
+}
+nav ul li{
+    display: inline-block;
+}
+li{
+    margin-left: 3%;
+    margin-top: 1.5%
+}
+#banner{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.melhores{
+    background-color: #000000;
+    color: #ffff;
+    width: 100%;
+    height: 10vh;
+    margin-top: -2%;
+}
+
+.piores{
+    background-color: #000000;
+    color: #ffff;
+    width: 100%;
+    height: 10vh;
+    margin-top: 15%;
+    border-top:#E41C1C 30px solid;
+    border-bottom: #E41C1C 30px solid;
+}
+
+.sesao{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.sesao h1{
+    margin-top: -0.5%;
+}
+
+.flex-container{
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: space-between;
+    justify-content: space-around;
+    height: 60vh;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.flex-container-dois{
+    padding-top: 15vw;
+    display: flex;
+    flex-direction: space-between;
+    justify-content: space-around;
+    height: 60vh;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.capa-img{
+    width: 20vw;
+    height: 60vh;
+
+}
+
+.capa-img img{
+    margin-top: 0%;
+}
+
+.tfilme{
+    padding-top:3%;
+    padding-left: 2%;
+    font-family: 'Inter', sans-serif;
+}
+
+.tfilme h3{
+    color:#000000;
+}
+
+.tfilme h4{
+    color:#000000;
+}
+
+
+.informasao{
+    padding-left: 1%;
+    font-size: 1rem;
+    color: #757575;
+    width: 9.5vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.diresao{
+    padding-top:5%;
+    padding-left:0.5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    color:#566405
+
+}
+
+.estrelas{
+    width: 10vw;
+    height: 6vh;
+}
+.item{
+    box-shadow: #000000 0 0 1.5em;
+    width: 20vw;
+    height: 80vh;
+    border-radius: 10px;
+    
+}
+
+.img-item{
+    border-radius: 5px;
+}
+
+#contatos{
+    margin-top: 0.5%;
+    margin-left: 1%;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#scontatos{
+    width: 100%;
+    height: 40vh;
+    background-color: #000000;
+}
+
+#whats{
+    width: 9vw;
+    height: 15.5vh;
+}
+
+#numero{
+    color: #ffff;
+    margin-top: 11.5%;
+    
+}
+
+#wen{
+    display:inline-flex;
+}
+
+#ins{
+    display: inline;
+}
+
+#ins-logo{
+    width: 4.5vw;
+    height: 9vh;
+    margin-left:2.1%;
+}
+
+#insta h1{
+    color: #ffff;
+    margin-left: 9.3%;
+    margin-top: -3.5%;
+}
+
+.item-info{
+    background-color: #000000;
+    width: 78.45052083333333vw;
+    height: 100vh;
+    margin: 10%;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: #000000 0 0 2em;
+}
+
+.item-info-pe{
+    background-color: #000000;
+    width: 78.45052083333333vw;
+    height: 92vh;
+    margin: 10%;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: #000000 0 0 2em;
+}
+
+.item-info-peque{
+    background-color: #000000;
+    width: 78.45052083333333vw;
+    height: 95vh;
+    margin: 10%;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: #000000 0 0 2em;
+}
+
+#img-cum img{
+    border-radius: 10px;
+    margin-top: 0%;
+}
+
+.ti-info{
+    color:#ffff;
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 1.5rem;
+}
+
+.sinopse{
+    color:#ffff;
+    font-size: 1.5rem;
+    margin: 1%;
+    text-align: justify;
+}
+
+.lan-dire{
+    display:inline-flex;
+    margin-top: 2%;
+}
+
+.lan{
+    color: #ffff;
+    margin-left: 1%;
+}
+
+.lan-p{
+    width: 30vw;
+}
+
+.dire{
+    color: #ffff;
+    margin-left: 70%;
+}
+
+.dire-p{
+    width: 20vw;
+}
+
+.estre-info{
+    width: 10vw;
+    height: 6vh;
+    margin-top: 5%;
+    margin-left: 85%;
+}
+
+.estre-info img{
+    border-radius: 20px;
+}
+
+#creditos{
+    color:#E41C1C;
+    font-style:italic;
+    margin-top: 6.5%;
+    margin-left: 85%;
+    font-size: 0.65rem;
+}
+
+/*============================================================================================================================*/
+
+
+@media screen and (min-width:0px) and (max-width:391px)
+{
+    .melhores {
+        margin-top: -3%;
+    }   
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+    .capa-img {
+        width: 20vw;
+        height: 28vh;
+    }
+    .tfilme h4 {
+        font-size: 0.55rem;
+    }
+    .tfilme h3 {
+        font-size: 0.7rem;
+    }
+    .informasao {
+        font-size: 0.59rem;
+    }
+    .diresao {
+        font-size: 0.6rem;
+    }
+    .estrelas {
+        width: 15vw;
+        height: 4vh;
+    }
+    .item {
+        box-shadow: #000000 0 0 1.5em;
+        width: 20vw;
+        height: 48vh;
+        border-radius: 10px;
+    }
+    .flex-container-dois {
+        margin-top: -15%;
+        height: 55vh;
+    }
+    .flex-container {
+        height: 55vh;
+    }
+    .ti-info {
+        padding-top: 2%;
+        padding-left: 2%;
+        font-size: 0.8rem;
+    }
+    .sinopse {
+        color: #ffff;
+        font-size: 0.8rem;
+        margin: 1%;
+        text-align: justify;
+    }
+    .dire {
+        color: #ffff;
+        margin-left: 35%;
+        font-size: 0.5rem;
+    }
+    .dire-p {
+        width: 30vw;
+    }
+    .estre-info {
+        width: 35vw;
+        height: 5vh;
+        margin-top: 5%;
+        margin-left: 54%;
+    }
+    .item-info {
+        height: auto;
+    }
+    .item-info-pe {
+        height: auto;
+    }
+    .item-info-peque {
+        height: auto;
+    }
+    #creditos {
+        margin-top: 6.5%;
+        margin-left: 50%;
+        font-size: 0.65rem;
+    }
+    #whats {
+        height: 16vh;
+        width: 19vw;
+    }
+    #numero {
+        margin-top: 10%;
+    }
+    #insta h1 {
+        margin-left: 19.5%;
+        margin-top: -11%;
+    }
+    #scontatos {
+        width: 100%;
+        height: 30vh;
+    }
+    #banner-img{
+        margin-top:20%;
+    }
+    .lan-p {
+        width: 30vw;
+        font-size: 0.5rem;
+    }
+    #ins-logo {
+        width: 10vw;
+        height: 7.5vh;
+        margin-left: 4%;
+    }
+}
+
+@media screen and (min-width:392px) and (max-width:631px) 
+{
+    nav ul li a {
+        font-size: 1.3rem;
+    }
+    .flex-container {
+        height: 80vh;
+    }
+    .flex-container-dois {
+        height: 80vh;
+    }
+    .tfilme h4 {
+        color: #000000;
+        font-size: 0.7rem;
+    }
+    .tfilme h3 {
+        color: #000000;
+        font-size: 0.8rem;
+    }
+    .informasao {
+        font-size: 0.7rem;
+    }
+    .estrelas {
+        width: 10vw;
+        height: 4vh;
+        border-radius: 10px;
+    }
+    .melhores {
+        margin-top: -3%;
+    }
+    .ti-info {
+        font-size: 1rem;
+    }
+    .sinopse {
+        font-size: 1rem;
+    }
+    .estre-info {
+        width: 15vw;
+        height: 6vh;
+        margin-top: 5%;
+        margin-left: 75%;
+    }
+    .item-info {
+        width: 78.45052083333333vw;
+        height: 85vh;
+    }
+    .item-info-peque {
+        width: 78.45052083333333vw;
+        height: 85vh;
+    }
+    .item-info-pe {
+        width: 78.45052083333333vw;
+        height: 75vh;
+    }
+    #creditos {
+        font-size: 0.5rem;
+    }
+    .dire {
+        color: #ffff;
+        margin-left: 55%;
+    }
+}
+
+@media screen and (min-width:632px) and (max-width:880px)
+{
+    nav ul li a {
+        font-size: 1.3rem;
+    }   
+}
+
+@media screen and (min-width:881px) and (max-width:993px) 
+{
+    .estre-info{
+        margin-top:2%;
+    }
+    .dire{
+        margin-left:50%;
+    }
+    .dire-p{
+        margin-left:15%;
+    }
+
+    nav ul li a{
+        font-size: 2rem;
+    }
+    .estrelas{
+        width: 7vw;
+        height: 4vh;
+        border-radius: 10px;
+    }
+
+    #creditos {
+        margin-top: 9%;
+        margin-left: 76%;
+        font-size: 0.8rem;
+    }
+    #insta h1 {
+        color: #ffff;
+        margin-left: 9.3%;
+        margin-top: -5.5%;
+    }
+    .item-info {
+        width: 78.45052083333333vw;
+        height: 115vh;
+    }
+    .item-info-pe {
+        width: 78.45052083333333vw;
+        height: 100vh;
+    }
+    .item-info-peque {
+        width: 78.45052083333333vw;
+        height: 110vh;
+    }
+    .item {
+        width: 20vw;
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width:994px) and (max-width:1110px) 
+{
+    nav ul li a {
+        font-size: 2rem;
+    }
+
+    .item {
+        width: 20vw;
+        height: 78.8vh;
+        border-radius: 10px;
+    }
+
+    .item-info {
+        width: 78.45052083333333vw;
+        height: 110vh;
+        margin: 10%;
+        border-radius: 10px;
+        margin-top: 3%;
+    }
+
+    .estre-info {
+        width: 16vw;
+        height: 6vh;
+        margin-top: 5%;
+        margin-left: 76%;
+    }
+    .dire {
+        margin-left: 55%;
+    }
+
+    .item-info-pe {
+        width: 78.45052083333333vw;
+        height: 90vh;
+    }
+    .item-info-peque {
+        width: 78.45052083333333vw;
+        height: 95vh;
+    }
+    #insta h1 {
+        margin-top: -5.5%;
+    }
+    #creditos {
+        margin-left: 81%;
+        margin-top:5%;
+    }
+    #scontatos {
+        height: 34vh;
+    }
+    .estrelas {
+        width: 8vw;
+        height: 4vh;
+    }
+}
